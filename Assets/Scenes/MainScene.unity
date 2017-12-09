@@ -243,6 +243,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1037433623}
   m_Script: {fileID: 11500000, guid: 8902ef04f323e444b98d2e4fd80a56ab, type: 3}
+--- !u!114 &930283854 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11495966, guid: ccf8c8cc05aad7b40a8deb4f73296da4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1037433623}
+  m_Script: {fileID: 11500000, guid: ffebc012055484b4899e163803755608, type: 3}
 --- !u!4 &930283859 stripped
 Transform:
   m_PrefabParentObject: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 2}
@@ -342,6 +348,16 @@ Prefab:
       propertyPath: gunContainer
       value: 
       objectReference: {fileID: 578560830}
+    - target: {fileID: 114011971931558918, guid: 31e7b5e5c22f22d4db72ced1750fc25b,
+        type: 2}
+      propertyPath: shootGalleryController
+      value: 
+      objectReference: {fileID: 1335653191}
+    - target: {fileID: 114011971931558918, guid: 31e7b5e5c22f22d4db72ced1750fc25b,
+        type: 2}
+      propertyPath: eyeRaycaster
+      value: 
+      objectReference: {fileID: 930283854}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 31e7b5e5c22f22d4db72ced1750fc25b, type: 2}
   m_IsPrefabParent: 0
@@ -497,7 +513,7 @@ Prefab:
     - target: {fileID: 114955560038706432, guid: c3ebde65bbd3c5c43a27cf4be9502c0b,
         type: 2}
       propertyPath: gameDuration
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114955560038706432, guid: c3ebde65bbd3c5c43a27cf4be9502c0b,
         type: 2}
@@ -512,6 +528,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c3ebde65bbd3c5c43a27cf4be9502c0b, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1335653191 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114955560038706432, guid: c3ebde65bbd3c5c43a27cf4be9502c0b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1278621354}
+  m_Script: {fileID: 11500000, guid: 090a125650566664ca9744f1258e0423, type: 3}
 --- !u!114 &1561941868 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114134904687318652, guid: 31e7b5e5c22f22d4db72ced1750fc25b,
